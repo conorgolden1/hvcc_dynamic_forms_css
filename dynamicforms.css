@@ -1,32 +1,34 @@
 /* FORM OVERALL STYLE */
 body {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
+
 #maincontent {
-	/* max-width: 1200px;
+    /* max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto; */
-	padding-bottom: 75px;
-	background-color: #FFFFFF;
-	/* overflow: hidden; */
+    padding-bottom: 75px;
+    background-color: #FFFFFF;
+    /* overflow: hidden; */
 
 }
 
 body td,
-input,
+input[type="text"],
 textarea,
 select {
-font-size: 16px !important;
+    font-size: 16px !important;
 }
-input,
+input[type="text"],
 textarea,
 select {
-  margin-top:5px;
+    margin-top: 5px;
 }
+
 #formnavbuttons {
-	/* text-align: center; */
-	padding-top: 15px;
-	border-top: 2px solid #ccc;
+    /* text-align: center; */
+    padding-top: 15px;
+    border-top: 2px solid #ccc;
 }
 
 
@@ -38,15 +40,16 @@ select {
   float:left;
 }
 */
-#FormPage tbody tr:first-child  td img {
-  /*width: 100px;
+#FormPage tbody tr:first-child td img {
+    /*width: 100px;
   height: 100px;
   float:left; */
 }
-#FormPage tbody tr:first-child  td header {
-  float:left;
-  text-align: left;
-  padding-left: 15px;
+
+#FormPage tbody tr:first-child td header {
+    float: left;
+    text-align: left;
+    padding-left: 15px;
 }
 
 /*
@@ -62,14 +65,14 @@ select {
 
 
 hr {
-  border: 1px solid #ccc;
-/*   max-width: 800px; */
+    border: 1px solid #ccc;
+    /*   max-width: 800px; */
 }
 
 /* FORM BASIC ELEMENTS */
 
 #FormPage tr td {
-  padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 /* FORM BUTTONS */
@@ -77,27 +80,35 @@ hr {
 
 #formnavbuttons #NextButton,
 #formnavbuttons #RejectButton {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  width: auto !important;
-  margin-right: 15px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto !important;
+    margin-right: 15px;
 }
+
 #formnavbuttons #NextButton {
- background-color: #007B20; /* Green */
+    background-color: #007B20;
+    /* Green */
 }
-  #formnavbuttons #NextButton:hover {
-    background-color: #01B530; /* Light Green */
+
+#formnavbuttons #NextButton:hover {
+    background-color: #01B530;
+    /* Light Green */
     color: black;
-  }
-#formnavbuttons #RejectButton {
-  background-color: #9D2945; /* Red */
 }
-  #formnavbuttons #RejectButton:hover {
-    background-color: #db5837; /* Faded Red */
-  }
+
+#formnavbuttons #RejectButton {
+    background-color: #9D2945;
+    /* Red */
+}
+
+#formnavbuttons #RejectButton:hover {
+    background-color: #db5837;
+    /* Faded Red */
+}
